@@ -9,13 +9,12 @@ int split(int numbers[], int first, int last)
 {
         /*******************************
          * Code your program here
-
+         *******************************/
 }
-void quickSort(int numbers[], int N)
+void quickSort(int numbers[], int first, int last)
 {
         /*******************************
          * Code your program here
-         * NOT recursive version
-         * Implement Quick Sort with Iterative Version
+         * Recursive Implementation
          *******************************/
 }

@@ -10,7 +10,7 @@ TEST_CASE("Ex1", "[example]")
 	// const int N = 5;
 	// int array[N] = {4, 2, 5, 6, 3};
 
-	quickSort(array, N);
+	quickSort(array, 0, N - 1);
 	cout << "After Sorting \n";
 	for (int v : array)
 		cout << v << "\t";
@@ -33,7 +33,7 @@ TEST_CASE("Ex2", "[example]")
 	const int N = 5;
 	int array[N] = {4, 2, 5, 6, 3};
 
-	quickSort(array, N);
+	quickSort(array, 0, N - 1);
 	cout << "After Sorting \n";
 	for (int v : array)
 		cout << v << "\t";
